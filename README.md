@@ -5,12 +5,6 @@ The Vod K'nuckles Archival System (VKAS) is a set of archival, organizational, a
 
 These guidelines will cover a range of topics from mod storage to preservation, porting, and more.
 
-### Legend
-`name` - This is a folder, URL, name, string, or something variable like that
-[test](http://www.wikipedia.org/) - This is a link
-[^0]: This is a footnote
-> This is a comment
-
 ---
 ## Getting Started
 Firstly and foremostly, you'll need to meet a few prerequisites in order to start backing up your mods.
