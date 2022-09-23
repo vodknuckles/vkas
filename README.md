@@ -52,23 +52,18 @@ Inside of these game folders will nest your `\Category` folders. There is no uni
 Lastly, inside the `\Category` folders will be your mod folders, `\[1] Mod` in the example. These folders will *generally* have an ID in brackets, followed by a title. If the mod is often abbreviated or referenced to as an acronym, you can add it to the name after the brackets:
 
 `\[21497] Mod Configuration Menu`
-
 becomes
-
 `\[21497] MCM - Mod Configuration Menu`
 
 I recommend not including useless indicators such as what game the mod is for, author names[^1], or version numbers. Naming mod folders this way puts the mods in sequential, release order as Nexus Mods' ID system is iterative. Below are some examples of mod folders with the extraneous info removed:
 
 `\[133] The Eyes Of Beauty Fallout Edition`
-
 becomes
-
 `\[133] The Eyes Of Beauty`
 
+
 `\[8126] Ponytail Hairstyles by Azar v2.5a`
-
 becomes
-
 `\[8126] Ponytail Hairstyles`
 
 [^1]: This might be desired in some circumstances. I'll usually reserve author names for large groups of similar mods. EX:  "`- Mihail Monsters and Animals`"  goes on the end of creature mods by Mihail since they all belong to a single theme and there are *dozens* of them. Another method for large mod collections is to create another folder inside of a given `\Category` for a given mod author. I only recommend this for groups of three or more similar mods.
@@ -106,7 +101,9 @@ The extension I primarily use is (at the time of writing):
 > Sometimes a mod will have a large number of parts or patches. In these cases I may also elect to save the *Files* tab of the page as well. I append "` - files`" at the end of the .HTML filename for these Files tab pages. So in the mod folder, there would be two pages.
 > 
 > For example:
+> 
 > `Mod Page - Nexus Mods.html`
+> 
 > `Mod Page - Nexus Mods - files.html`
 
 #### For full page screenshots
