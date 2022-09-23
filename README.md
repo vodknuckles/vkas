@@ -12,7 +12,7 @@ Firstly and foremostly, you'll need to meet a few prerequisites in order to star
 1. A copy of the game(s) you'll be modding
 	1. Legit or not, it shouldn't matter as long as it's playable
 2. An account for the websites that require one for downloading mods
-	1. [Nexus Mods](https://www.nexusmods.com/)(Nexus, NM) will be the site for the vast majority of your mods
+	1. [Nexus Mods](https://www.nexusmods.com/) (Nexus, NM) will be the site for the vast majority of your mods
 	2. Nexus accounts are free and easy to create
 3. Somewhere to store the mod archives and their folder structure
 	1. I like to use a NAS, but you can use any storage solution
@@ -52,17 +52,23 @@ Inside of these game folders will nest your `\Category` folders. There is no uni
 Lastly, inside the `\Category` folders will be your mod folders, `\[1] Mod` in the example. These folders will *generally* have an ID in brackets, followed by a title. If the mod is often abbreviated or referenced to as an acronym, you can add it to the name after the brackets:
 
 `\[21497] Mod Configuration Menu`
+
 becomes
+
 `\[21497] MCM - Mod Configuration Menu`
 
 I recommend not including useless indicators such as what game the mod is for, author names[^1], or version numbers. Naming mod folders this way puts the mods in sequential, release order as Nexus Mods' ID system is iterative. Below are some examples of mod folders with the extraneous info removed:
 
 `\[133] The Eyes Of Beauty Fallout Edition`
+
 becomes
+
 `\[133] The Eyes Of Beauty`
 
-`\[8126] Ponytail Hairstyles by Azar v2.5a` 
+`\[8126] Ponytail Hairstyles by Azar v2.5a`
+
 becomes
+
 `\[8126] Ponytail Hairstyles`
 
 [^1]: This might be desired in some circumstances. I'll usually reserve author names for large groups of similar mods. EX:  "`- Mihail Monsters and Animals`"  goes on the end of creature mods by Mihail since they all belong to a single theme and there are *dozens* of them. Another method for large mod collections is to create another folder inside of a given `\Category` for a given mod author. I only recommend this for groups of three or more similar mods.
@@ -83,6 +89,7 @@ The extension I primarily use is (at the time of writing):
 ![Save Page WE](https://addons.mozilla.org/user-media/addon_icons/724/724283-64.png)
 
 [Save Page WE](https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof) - Chrome, Brave, and other browsers that support Chrome extensions
+
 [Save Page WE](https://addons.mozilla.org/en-US/firefox/addon/save-page-we/) - Firefox version
 
 [GoFullPage](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl) - Full Page Screen Capture, use as a last resort
@@ -106,9 +113,11 @@ The extension I primarily use is (at the time of writing):
 The naming convention I've adopted (out of laziness) is the default name generated when I save an .HTML file. I would recommend following the same naming convention for full page screenshots as well.
 
 The naming convention for Nexus looks like this, but without the brackets:
+
 `[Mod Name] at [Game] Nexus - Mods and community.html`
 
 Your screenshot could be named something like:
+
 `Mod Configuration Menu at Fallout 4 Nexus - Mods and community.png`
 
 ### Missing Mod Pages
@@ -151,8 +160,7 @@ On the *Files* tab of a given Nexus mod page, there may be as many as four secti
 4. **Old Files** - Old mod versions
 	1. Generally, these are older versions of the Main or Optional files and are best left alone.
 
-It is very hard for
- me to give any advice regarding what files you should or shouldn't archive. I usually just download the files I need or think I could use in the future and move on. I'll go through an example mod to give you some idea of how I would do this.
+It is very hard for me to give any advice regarding what files you should or shouldn't archive. I usually just download the files I need or think I could use in the future and move on. I'll go through an example mod to give you some idea of how I would do this.
 
 I'll be using [CBBE - Caliente's Beautiful Bodies Enhancer](https://www.nexusmods.com/fallout4/mods/15) as it is popular and uses all four file categories. On the CBBE *Files* tab, the files (at the time of writing) are as follows:
 
@@ -197,7 +205,7 @@ Alright, you've made your folder structure, saved a few webpages, and downloaded
 
 Lastly, some mods have dependencies that are required for the mod to function. These mods won't be a retexture or small fix, they'll generally have some scripting or they might base part of their functionality on a separately developed mod. This can be great and lead to some awesome projects, but more often it's a juggling act of trying to keep everything updated and playing nice.
 
-For this problem, I've developed a template .txt file that I include inside of each mod folder where some required materials or other information is needed for smooth functionality. These requirements (req.) files (in their current implementation, I may move to a centralized or MarkDown solution in the future) are simple .txt file that specifies any hard or soft requirements as well as any optional files, notes, or special instructions.
+For this problem, I've developed a template .txt file that I include inside of each mod folder where some required materials or other information is needed for smooth functionality. These requirements (req.) files (in their current implementation, I may move to a centralized or Markdown solution in the future) are simple .txt file that specifies any hard or soft requirements as well as any optional files, notes, or special instructions.
 
 Below is a short summary of the sections of a req. file:
 
